@@ -163,3 +163,19 @@ hr {
     display: flex;
     justify-content: space-between;
 }
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    hr{
+        width: 100%;
+    }
+.players,.blogs,.lates-course{
+    grid-template-columns: repeat(1, 1fr);
+}
+   .player,.blog,.rating-info{
+    flex-direction: column;
+   } 
+   
+   
+}
